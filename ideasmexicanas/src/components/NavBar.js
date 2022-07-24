@@ -1,5 +1,5 @@
 import React from "react";
-
+import CartWidget from "./CartWidget";
 export const NavBar =()=>{
     return (
 <nav class="navbar navbar-expand-lg bg-light">
@@ -28,7 +28,7 @@ export const NavBar =()=>{
           <a class="nav-link disabled">Contacto</a>
         </li>
       </ul>
-      
+      <CartWidget/>
     </div>
   </div>
 </nav>
